@@ -1,0 +1,26 @@
+.menu_nav {
+    background-color: #1a3b70;
+}
+
+.a_menu_nav{
+    color: #ffffff;
+}
+
+.vr_nav{
+    background-color: #ffffff;
+    width: 2px;
+    height: 30px;
+    margin-top: 5px;
+}
+
+.menu_icon{
+    color: white;
+}
+
+.rigth_ul_nav{
+    padding-right:150px;
+}
+
+.left_ul_nav{
+    padding-left: 150px;
+}
