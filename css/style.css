@@ -1,5 +1,10 @@
 .menu_nav {
     background-color: #1a3b70;
+    height: 50px;
+}
+
+.title{
+    background-color: #999999;
 }
 
 .a_menu_nav{
@@ -18,9 +23,29 @@
 }
 
 .rigth_ul_nav{
-    padding-right:150px;
+    padding-left:110px;
 }
 
 .left_ul_nav{
     padding-left: 150px;
+}
+
+.GDM{
+    font-family: 'Open Sans', sans-;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 120px;
+    text-align: center;
+}
+
+.side_left{
+    font-size: 20px;
+    line-height: 100px;
+    padding-left: 170px;
+}
+
+.side_right{
+    font-size: 20px;
+    line-height: 100px;
+
 }
