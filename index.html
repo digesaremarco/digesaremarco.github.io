@@ -14,7 +14,7 @@
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg menu_nav">
+<nav class="navbar navbar-expand-lg menu_nav">   <!-- quando scompare metterne un'altra come nel sito-->
     <div class="container">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -88,65 +88,49 @@
                 </li>
                 <li>
                     <a class="navbar-brand" href="#">
-                        <img color="white" src="img/login.png" alt="Bootstrap" width="25" height="25">
+                        <img src="img/login.png" alt="Bootstrap" width="25" height="25">
                     </a>
                 </li>
             </ul>
         </div>
     </div>
 </nav>
+<!--
+<div class="container d-lg-none"> <!- così si vede il titolo su schermi piccoli ->
+    <h1>GAZZETTA DI MANTOVA</h1>
+</div>-->
 
-<nav class="navbar navbar-expand-lg">
-    <div class="container">
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0 left_ul_nav">
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                       aria-expanded="false">
-                        Sezioni
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Magazine</a></li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
-                        <li><a class="dropdown-item" href="#">Annunci</a></li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
-                        <li><a class="dropdown-item" href="#">Quotidiani GNN</a></li>
-                    </ul>
-                </li>
-            </ul>
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-2"></div>
+        <div class="col-1 side_left">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+               aria-expanded="false">
+                Sezioni
+            </a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Magazine</a></li>
                 <li>
-                    <a class="nav-link" href="#">GAZZETTA DI MANTOVA</a>
+                    <hr class="dropdown-divider">
                 </li>
+                <li><a class="dropdown-item" href="#">Annunci</a></li>
+                <li>
+                    <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Quotidiani GNN</a></li>
             </ul>
-            <form class="form-inline my-2 my-lg-0">
+            </li>
+            </ul>
+        </div>
+        <div class="col-6">
+            <img class="img-fluid GDM" src="img/GDM.gif" alt="Responsive image">
+        </div>
+        <div class="col-1 side_right">
                 <input class="form-control mr-sm-2" type="search" placeholder="Cerca" aria-label="Search">
-            </form>
         </div>
     </div>
-</nav>
-
-<div class="container d-lg-none"> <!-- così si vede il titolo su schermi piccoli -->
-    GAZZETTA DI MANTOVA
 </div>
 
-<!--<div class="container ">
-    <div class="row">
-        <div class="col side_left">
-            colonna1
-        </div>
-        <div class="col-7 GDM">
-            GAZZETTA DI MANTOVA
-        </div>
-        <div class="col side_right">
-            colonna3
-        </div>
-    </div>
-</div>-->
 
 
 </body>
