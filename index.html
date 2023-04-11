@@ -43,7 +43,7 @@
                 <li class="nav-item">
                     <a class="nav-link a_menu_nav" href="#">Meteo</a>
                 </li>
-                <div class="vr a_menu_nav"></div>
+                <div class="vr vr_nav"></div>
                 <li class="nav-item">
                     <a class="nav-link a_menu_nav" href="#">Newsletter</a>
                 </li>
@@ -100,7 +100,8 @@
     <h1>GAZZETTA DI MANTOVA</h1>
 </div>-->
 
-<div class="container-fluid">
+<!-- TITLE BAR -->
+<div class="container-fluid title">  <!-- cambiare gli spazi su schermi piccoli, display property  -->
     <div class="row">
         <div class="col-2"></div>
         <div class="col-1 side_left">
@@ -119,18 +120,56 @@
                 </li>
                 <li><a class="dropdown-item" href="#">Quotidiani GNN</a></li>
             </ul>
-            </li>
-            </ul>
         </div>
         <div class="col-6">
             <img class="img-fluid GDM" src="img/GDM.gif" alt="Responsive image">
         </div>
         <div class="col-1 side_right">
-                <input class="form-control mr-sm-2" type="search" placeholder="Cerca" aria-label="Search">
+            <input class="form-control mr-sm-2" type="search" placeholder="Cerca" aria-label="Search">
         </div>
     </div>
 </div>
 
+
+<!-- HEADER BAR -->
+<div class="container-fluid border border-dark header">    <!-- sistemare elementi visibili -->
+    <div class="row header_items ">
+        <div class="col-2 "></div>
+        <div class="col ">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+               aria-expanded="false">
+                Comuni
+            </a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Mantova</a></li>
+                <li>
+                    <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Castiglione</a></li>
+                <li>
+                    <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Viadana</a></li>
+            </ul>
+        </div>
+        <div class="col">
+            Cronaca
+        </div>
+        <div class="col-2">
+            Cultura e Spettacoli
+        </div>
+        <div class="col">
+            Sport
+        </div>
+        <div class="col">
+            Italia Mondo
+        </div>
+        <div class="col">
+            Video
+        </div>
+        <div class="col"></div>
+    </div>
+</div>
 
 
 </body>
