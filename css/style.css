@@ -81,6 +81,16 @@
     font-family: "Arial Black";
 }
 
-.space{
-    height: 2rem;
+.space {
+    height: 1.3rem;
+}
+
+.right_border {
+    border-right-style: solid;
+    border-right-color: lightgray;
+}
+
+.horizontal_divider{
+    border-bottom-style: solid;
+    border-bottom-color: lightgray;
 }
