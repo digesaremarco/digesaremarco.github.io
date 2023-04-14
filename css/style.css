@@ -90,11 +90,23 @@
     border-right-color: lightgray;
 }
 
-.horizontal_divider{
+.horizontal_divider {
     border-bottom-style: solid;
     border-bottom-color: lightgray;
 }
 
-.three_elements{
-padding-top: 3rem;
+.three_elements {
+    padding-top: 3rem;
+    border-bottom-style: solid;
+    border-bottom-color: lightgray;
+}
+
+.space_guide{
+    height: 3rem;
+}
+
+.guide{
+    background: #ecf7fb;
+    border-bottom-style: solid;
+    border-bottom-color: lightgray;
 }
