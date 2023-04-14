@@ -24,7 +24,7 @@
     color: white;
 }
 
-.rigth_ul_nav {
+.right_ul_nav {
     padding-left: 1rem;
 }
 
@@ -73,12 +73,14 @@
 
 .p_body {
     color: #1a3b70;
-    font-family: "Arial Black";
+    font-family: "Noto Serif", serif;
+    font-weight: bold;
 }
 
 .title_body {
     color: black;
-    font-family: "Arial Black";
+    font-family: "Noto Serif", serif;
+    font-weight: bold;
 }
 
 .space {
@@ -107,6 +109,8 @@
 
 .guide{
     background: #ecf7fb;
-    border-bottom-style: solid;
-    border-bottom-color: lightgray;
+}
+
+.esclusive{
+    background: #f4f2e8;
 }
