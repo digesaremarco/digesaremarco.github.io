@@ -516,14 +516,13 @@
 <div class="space_guide"></div>
 
 <!-- NECROLOGI, ANNUNCI E ASTE GIUDIZIARIE -->
-<div class="container-fluid">
+<div class="container">
     <div class="row">
-        <div class="col-lg-1"></div>
-        <div class="col-md-3 col-12 necrologi">
+        <div class="col-md-3 col-12 rounded_bottom">
             <div class="row">
                 <div class="space"></div>
                 <div class="col-1">
-                    <h4>NECROLOGI</h4>
+                    <h4 class="title_necrologi">NECROLOGI</h4>
                 </div>
                 <div class="col-8"></div>
                 <div class="col-1">
@@ -531,36 +530,41 @@
                 </div>
                 <div class="row">
                     <div class="col">
+                        <div class="space"></div>
+                        <div class="space"></div>
                         <div data-bs-spy="scroll" data-bs-smooth-scroll="true"
                              class="scrollspy-example bg-body-tertiary p-3 rounded-2 scroll_necrologi" tabindex="0">
-                            <h4>Cognome Nome</h4>
+                            <h4 class="title_necrologi">Cognome Nome</h4>
                             <p>Località, data</p>
                             <div class="horizontal_divider"></div>
                             <div class="space"></div>
-                            <h4>Cognome Nome</h4>
+                            <h4 class="title_necrologi">Cognome Nome</h4>
                             <p>Località, data</p>
                             <div class="horizontal_divider"></div>
                             <div class="space"></div>
-                            <h4>Cognome Nome</h4>
+                            <h4 class="title_necrologi">Cognome Nome</h4>
                             <p>Località, data</p>
                             <div class="horizontal_divider"></div>
                             <div class="space"></div>
-                            <h4>Cognome Nome</h4>
+                            <h4 class="title_necrologi">Cognome Nome</h4>
                             <p>Località, data</p>
                             <div class="horizontal_divider"></div>
                             <div class="space"></div>
-                            <h4>Cognome Nome</h4>
+                            <h4 class="title_necrologi">Cognome Nome</h4>
                             <p>Località, data</p>
                             <div class="horizontal_divider"></div>
                             <div class="space"></div>
-                            <h4>Cognome Nome</h4>
+                            <h4 class="title_necrologi">Cognome Nome</h4>
                             <p>Località, data</p>
                             <div class="horizontal_divider"></div>
                             <div class="space"></div>
-                            <h4>Cognome Nome</h4>
+                            <h4 class="title_necrologi">Cognome Nome</h4>
                             <p>Località, data</p>
                             <div class="space"></div>
                         </div>
+                        <div class="space"></div>
+                        <div class="space"></div>
+                        <div class="space"></div>
                         <div class="space"></div>
                         <div class="button_necrologio">PUBBLICA UN NECROLOGIO</div>
                         <div class="space"></div>
@@ -568,10 +572,103 @@
                 </div>
             </div>
         </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-3 col-12 rounded_bottom">
+            <div class="row space_annunci annunci_bg"></div>
+            <div class="row annunci_bg">
+                <div class="col">
+                    <p class="p_annunci_title" id="annunci_title">ANNUNCI</p>
+                </div>
+            </div>
+            <div class="row space_annunci annunci_bg"></div>
+            <div class="row annunci_bg">
+                <div class="col">
+                    <p class="p_annunci_title">CASE</p>
+                </div>
+                <div class="col">
+                    <p class="p_annunci_title">MOTORI</p>
+                </div>
+                <div class="col">
+                    <p class="p_annunci_title">LAVORO</p>
+                </div>
+                <div class="col">
+                    <p class="p_annunci_title">ASTE</p>
+                </div>
+            </div>
+            <div class="row space"></div>
+            <div class="row">
+                <div class="col">
+                    <img src="img/casa.jpg" class="figure-img img-fluid rounded" alt="">
+                    <figcaption class="figure-caption">
+                        <p class="p_annunci">Rustico, Casale</p>
+                        <p class="p_annunci" id="annunci_little">Via Renazzano n. 137 ang. via Leona. Asta giudiziaria o dismissione</p>
+                    </figcaption>
+                </div>
+            </div>
+            <div class="row space_annunci"></div>
+            <div class="row horizontal_divider"></div>
+            <div class="row">
+                <div class="col">
+                    <p class="p_annunci_title" id="cerca_casa">CERCA UNA CASA</p>
+                    <div class="row">
+                        <div class="col">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                <label class="form-check-label" for="inlineCheckbox1">Vendita</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                <label class="form-check-label" for="inlineCheckbox2">Cerca</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                                <label class="form-check-label" for="inlineCheckbox3">Asta</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="space_annunci"></div>
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                               aria-expanded="false">
+                                Provincia
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Cremona</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Ferrara</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Mantova</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="space_annunci"></div>
+                        <div class="col">
+                            <div class="cerca">CERCA</div>
+                        </div>
+                    </div>
+                    <div class="row space"></div>
+                    <div class="pubblica_annuncio">PUBBLICA IL TUO ANNUNCIO</div>
+                    <div class="row space"></div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-md-1"></div>
+        <div class="col-md-3 col-12 rounded_bottom">
+
+        </div>
     </div>
 </div>
 
 <div class="space_guide"></div>
+
 
 </body>
 </html>

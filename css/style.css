@@ -131,7 +131,7 @@ h1:hover, h2:hover, h3:hover, h4:hover, h5:hover {
     font-size: 1.2rem;
 }
 
-.necrologi{
+.rounded_bottom{
     border-style: solid;
     border-color: lightgray;
     border-bottom-left-radius: 2rem;
@@ -152,4 +152,67 @@ h1:hover, h2:hover, h3:hover, h4:hover, h5:hover {
 
 .scroll_necrologi{
     height: 30rem;
+}
+
+.title_necrologi{
+    color: #464E62;
+}
+
+
+.annunci_bg{
+    background-color: #27787C;
+    opacity: 70%;
+}
+
+.space_annunci {
+    height: .5rem;
+}
+
+.p_annunci_title{
+    color: white;
+    font-size:1rem;
+}
+
+#annunci_title{
+    font-size: 1.5rem;
+}
+
+.p_annunci{
+    color: #464E62;
+    font-size: 1.5rem;
+}
+
+#annunci_little{
+    font-size: 1rem;
+}
+
+#cerca_casa{
+    color:#27787C;
+    opacity: 70%;
+    font-weight: bold;
+}
+
+.cerca{
+    background-color: #2D3342;
+    color: white;
+    font-family: "Noto Serif", serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+    border-radius: 5rem;
+    text-align: center;
+    padding-top: 0.6rem;
+    height: 3rem;
+}
+
+.pubblica_annuncio{
+    background-color: #27787C;
+    opacity: 70%;
+    color: white;
+    font-family: "Noto Serif", serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+    border-radius: 5rem;
+    text-align: center;
+    padding-top: 0.6rem;
+    height: 3rem;
 }
