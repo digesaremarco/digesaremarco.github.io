@@ -120,7 +120,7 @@ h1:hover, h2:hover, h3:hover, h4:hover, h5:hover {
     color: #1a3b70;
 }
 
-.video{
+.video {
     background: #040D22;
 }
 
@@ -129,4 +129,27 @@ h1:hover, h2:hover, h3:hover, h4:hover, h5:hover {
     font-family: "Noto Serif", serif;
     font-weight: bold;
     font-size: 1.2rem;
+}
+
+.necrologi{
+    border-style: solid;
+    border-color: lightgray;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+
+.button_necrologio {
+    background-color: #2D3342;
+    color: white;
+    font-family: "Noto Serif", serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+    border-radius: 5rem;
+    text-align: center;
+    padding-top: 0.6rem;
+    height: 3rem;
+}
+
+.scroll_necrologi{
+    height: 30rem;
 }
