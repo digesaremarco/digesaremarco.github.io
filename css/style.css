@@ -131,7 +131,7 @@ h1:hover, h2:hover, h3:hover, h4:hover, h5:hover {
     font-size: 1.2rem;
 }
 
-.rounded_bottom{
+.rounded_bottom {
     border-style: solid;
     border-color: lightgray;
     border-bottom-left-radius: 2rem;
@@ -150,16 +150,16 @@ h1:hover, h2:hover, h3:hover, h4:hover, h5:hover {
     height: 3rem;
 }
 
-.scroll_necrologi{
+.scroll_necrologi {
     height: 30rem;
 }
 
-.title_necrologi{
+.title_necrologi {
     color: #464E62;
+    font-weight: bold;
 }
 
-
-.annunci_bg{
+.annunci_bg {
     background-color: #27787C;
     opacity: 70%;
 }
@@ -168,31 +168,32 @@ h1:hover, h2:hover, h3:hover, h4:hover, h5:hover {
     height: .5rem;
 }
 
-.p_annunci_title{
+.p_annunci_title {
     color: white;
-    font-size:1rem;
+    font-size: 1rem;
+    font-weight: bold;
 }
 
-#annunci_title{
+#annunci_title {
     font-size: 1.5rem;
 }
 
-.p_annunci{
+.p_annunci {
     color: #464E62;
     font-size: 1.5rem;
 }
 
-#annunci_little{
+#annunci_little {
     font-size: 1rem;
 }
 
-#cerca_casa{
-    color:#27787C;
+#cerca_casa {
+    color: #27787C;
     opacity: 70%;
     font-weight: bold;
 }
 
-.cerca{
+.cerca {
     background-color: #2D3342;
     color: white;
     font-family: "Noto Serif", serif;
@@ -204,7 +205,7 @@ h1:hover, h2:hover, h3:hover, h4:hover, h5:hover {
     height: 3rem;
 }
 
-.pubblica_annuncio{
+.pubblica_annuncio {
     background-color: #27787C;
     opacity: 70%;
     color: white;
@@ -215,4 +216,20 @@ h1:hover, h2:hover, h3:hover, h4:hover, h5:hover {
     text-align: center;
     padding-top: 0.6rem;
     height: 3rem;
+}
+
+.aste_bg {
+    background-color: darkorange;
+    opacity: 70%;
+}
+
+.p_aste_title{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.p_aste{
+    color: #464E62;
+    font-size: 1rem;
 }
