@@ -233,3 +233,13 @@ h1:hover, h2:hover, h3:hover, h4:hover, h5:hover {
     color: #464E62;
     font-size: 1rem;
 }
+
+.footer{
+    background-color: #040D22;
+}
+
+.p_footer{
+    color: white;
+    font-size: 1rem;
+    font-family: "Noto Serif", serif;
+}
