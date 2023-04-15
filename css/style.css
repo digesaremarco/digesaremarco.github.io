@@ -75,6 +75,7 @@
     color: #1a3b70;
     font-family: "Noto Serif", serif;
     font-weight: bold;
+    font-size: 1.2rem;
 }
 
 .title_body {
@@ -103,14 +104,29 @@
     border-bottom-color: lightgray;
 }
 
-.space_guide{
+.space_guide {
     height: 3rem;
 }
 
-.guide{
+.guide {
     background: #ecf7fb;
 }
 
-.esclusive{
+.esclusive {
     background: #f4f2e8;
+}
+
+h1:hover, h2:hover, h3:hover, h4:hover, h5:hover {
+    color: #1a3b70;
+}
+
+.video{
+    background: #040D22;
+}
+
+.p_video {
+    color: white;
+    font-family: "Noto Serif", serif;
+    font-weight: bold;
+    font-size: 1.2rem;
 }
