@@ -243,3 +243,15 @@ h1:hover, h2:hover, h3:hover, h4:hover, h5:hover {
     font-size: 1rem;
     font-family: "Noto Serif", serif;
 }
+
+.p_footer_larger{
+    color: white;
+    font-size: 1.2rem;
+    font-family: "Noto Serif", serif;
+    font-weight: bold;
+}
+
+.horizontal_divider_footer {
+    border-bottom-style: solid;
+    border-bottom-color: white;
+}
