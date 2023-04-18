@@ -10,25 +10,18 @@
     <link type="text/css" href="css/style.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 
-
     <title>Gazzetta di Mantova</title>
 </head>
 <body>
 
-<!-- NAVBAR -->
-<nav class="navbar navbar-expand-lg menu_nav">   <!-- quando scompare metterne un'altra come nel sito-->
-    <div class="container">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span> <!-- icona del menù-->
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0 left_ul_nav">
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle a_menu_nav" href="#" role="button" data-bs-toggle="dropdown"
-                       aria-expanded="false">
-                        GNN
-                    </a>
+<!-- HEADER -->
+<div class="container-fluid header d-none d-lg-block ">
+    <div class="row" style="height: 2.5rem">
+        <div class="col-lg-1"></div>
+        <div class="col-4">
+            <div class="row">
+                <div class="col-2 right_border_header">
+                    <p class="p_header dropdown-toggle" data-bs-toggle="dropdown">GNN</p>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="#">La stampa</a></li>
                         <li>
@@ -40,21 +33,15 @@
                         </li>
                         <li><a class="dropdown-item" href="#">Gazzetta di Mantova</a></li>
                     </ul>
-                </li>
-                <div class="vr vr_nav"></div>
-                <li class="nav-item">
-                    <a class="nav-link a_menu_nav" href="#">Meteo</a>
-                </li>
-                <div class="vr vr_nav"></div>
-                <li class="nav-item">
-                    <a class="nav-link a_menu_nav" href="#">Newsletter</a>
-                </li>
-                <div class="vr vr_nav"></div>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle a_menu_nav" href="#" role="button" data-bs-toggle="dropdown"
-                       aria-expanded="false">
-                        Annunci
-                    </a>
+                </div>
+                <div class="col-2 right_border_header">
+                    <p class="p_header">METEO</p>
+                </div>
+                <div class="col-3 right_border_header">
+                    <p class="p_header">NEWSLETTER</p>
+                </div>
+                <div class="col">
+                    <p class="p_header dropdown-toggle" data-bs-toggle="dropdown">ANNUNCI</p>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="#">Aste giudiziarie</a></li>
                         <li>
@@ -66,44 +53,65 @@
                         </li>
                         <li><a class="dropdown-item" href="#">Lavoro</a></li>
                     </ul>
-                </li>
-            </ul>
-            <ul class="navbar-nav me-auto d-flex right_ul_nav">
-                <li class="nav-item">
-                    <a class="nav-link a_menu_nav" href="#">Gedi smile</a>
-                </li>
-                <div class="vr vr_nav"></div>
-                <li class="nav-item">
-                    <a class="nav-link a_menu_nav" href="#">Leggi il quotidiano</a>
-                </li>
-                <div class="vr vr_nav"></div>
-                <li class="nav-item">
-                    <a class="nav-link a_menu_nav" href="#">Vetrina</a>
-                </li>
-                <div class="vr vr_nav"></div>
-                <li class="nav-item">
-                    <a class="nav-link a_menu_nav" href="#">Abbonati</a>
-                </li>
-                <div class="vr vr_nav"></div>
-                <li class="nav-item">
-                    <a class="nav-link a_menu_nav" href="#">Accedi</a>
-                </li>
-                <li>
-                    <a class="navbar-brand" href="#">
-                        <img src="img/login.png" alt="Bootstrap" width="25" height="25">
-                    </a>
-                </li>
-            </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-1"></div>
+        <div class="col-6">
+            <div class="row">
+                <div class="col-2 right_border_header">
+                    <p class="p_header">GEDI SMILE</p>
+                </div>
+                <div class="col-4  right_border_header">
+                    <p class="p_header">LEGGI IL QUOTIDIANO</p>
+                </div>
+                <div class="col-2  right_border_header">
+                    <p class="p_header">VETRINA</p>
+                </div>
+                <div class="col-2 right_border_header">
+                    <p class="p_header">ABBONATI</p>
+                </div>
+                <div class="col-1">
+                    <p class="p_header">ACCEDI</p>
+                </div>
+                <div class="col-1">
+                    <img src="img/login.png" alt="Bootstrap" width="25" height="25">
+                </div>
+            </div>
         </div>
     </div>
-</nav>
-
+</div>
+<div class="container-fluid header d-block sm-block md-block d-lg-none">
+    <div class="row" style="height: 2.5rem">
+        <div class="col-2">
+            <p class="p_header_md dropdown-toggle" data-bs-toggle="dropdown">GNN</p>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">La stampa</a></li>
+                <li>
+                    <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Corriere delle Alpi</a></li>
+                <li>
+                    <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Gazzetta di Mantova</a></li>
+            </ul>
+        </div>
+        <div class="col-md-8 col-7"></div>
+        <div class="col-md-1 col-2">
+            <p class="p_header_md">ACCEDI</p>
+        </div>
+        <div class="col-1">
+            <img src="img/login.png" alt="Bootstrap" width="30" height="30" style="padding-top: .6rem">
+        </div>
+    </div>
+</div>
 
 <!-- TITLE BAR -->
 <div class="container-fluid title">
     <div class="row">
-        <div class="col-lg-2"></div>
-        <div class="col-1 side_left">
+        <div class="col-lg-1"></div>
+        <div class="col-2 side_left">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                aria-expanded="false">
                 Sezioni
@@ -120,7 +128,7 @@
                 <li><a class="dropdown-item" href="#">Quotidiani GNN</a></li>
             </ul>
         </div>
-        <div class="col-lg-6 col-10">
+        <div class="col-lg-7 col-9">
             <img class="img-fluid GDM" src="img/GDM.gif" alt="Responsive image">
         </div>
         <div class="col-1 side_right">
@@ -131,9 +139,9 @@
 
 
 <!-- HEADER BAR -->
-<div class="container-fluid border border-dark header">
+<div class="container-fluid border border-dark header_bar">
     <div class="row header_items ">
-        <div class="col-lg-2 "></div>
+        <div class="col-lg-1 "></div>
         <div class="col">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                aria-expanded="false">
@@ -166,7 +174,6 @@
         <div class="col d-none d-sm-block">
             Video
         </div>
-        <div class="col-lg"></div>
     </div>
 </div>
 
@@ -708,7 +715,7 @@
         <div class="col-md-4 col-12">
             <div class="row">
                 <div class="col">
-                    <img class="img-fluid GDM" src="img/GDM.gif" alt="Responsive image">
+                    <img class="img-fluid GDM" src="img/GDM_W.gif" alt="Responsive image">
                 </div>
             </div>
             <div class="row space"></div>

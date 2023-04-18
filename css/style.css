@@ -1,7 +1,32 @@
-.menu_nav {
+.header {
     background-color: #1a3b70;
-    height: 50px;
 }
+
+.p_header {
+    color: white;
+    font-family: "Noto Serif", serif;
+    font-weight: bold;
+    font-size: .85rem;
+    padding-top: .6rem;
+}
+
+.p_header_md {
+    color: white;
+    font-family: "Noto Serif", serif;
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding-top: .5rem;
+}
+
+.right_border_header {
+    border-right-style: solid;
+    border-right-color: white;
+}
+
+.header_space{
+    height: .3rem;
+}
+
 
 .title {
     background-color: #ffffff;
@@ -9,31 +34,8 @@
     padding-top: 1rem;
 }
 
-.a_menu_nav {
-    color: #ffffff;
-}
-
-.vr_nav {
-    background-color: #ffffff;
-    width: 2px;
-    height: 30px;
-    margin-top: 5px;
-}
-
-.menu_icon {
-    color: white;
-}
-
-.right_ul_nav {
-    padding-left: 1rem;
-}
-
-.left_ul_nav {
-    padding-left: 10rem;
-}
-
 .GDM {
-    width: 40rem;
+    width: 45rem;
     height: 4rem;
     line-height: 1rem;
     /*padding-left: 13rem;*/
@@ -47,13 +49,12 @@
 }
 
 .side_right {
-    font-size: 1rem;
     line-height: 4rem;
     align-self: center;
     /* padding-left: 10rem;*/
 }
 
-.header {
+.header_bar {
     height: 50px;
     margin-top: 3rem;
 }
@@ -223,28 +224,28 @@ h1:hover, h2:hover, h3:hover, h4:hover, h5:hover {
     opacity: 70%;
 }
 
-.p_aste_title{
+.p_aste_title {
     color: white;
     font-size: 1.5rem;
     font-weight: bold;
 }
 
-.p_aste{
+.p_aste {
     color: #464E62;
     font-size: 1rem;
 }
 
-.footer{
+.footer {
     background-color: #040D22;
 }
 
-.p_footer{
+.p_footer {
     color: white;
     font-size: 1rem;
     font-family: "Noto Serif", serif;
 }
 
-.p_footer_larger{
+.p_footer_larger {
     color: white;
     font-size: 1.2rem;
     font-family: "Noto Serif", serif;
